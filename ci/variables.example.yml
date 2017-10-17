@@ -1,0 +1,9 @@
+cf-api-url: https://api.sys.longs.pal.pivotal.io
+cf-username: manoj_baranwal@syntelinc.com
+cf-password: a124f6cf
+cf-org: mbaranwal-pal
+github-repository: git@github.com:mbaransln/pal-tracker.git
+github-private-key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDEcmqXm+q6EaL04Q8DCWeB4s3Or1aWbN6z9CszvZXmExnkQSnH2nXAsSuq5vCA8D2q9VFKNXlb0g/jjIumTKdgNSIURaw+JfvRCDK8WQs+7y+kCqHuhy9JqC1VCsz+gXCStThHTtY84e3eoLxB0dp+Gbj3tpXtFbYd1bacZykRITMSzq7yNsMbUJcC7Q5u/bEkoFOwogmznkH699I5sgHBtmARGO0wMsBNz5hes80fTl2BARGxlfKDDPzYBwdA2/GZ8X+NuXkHfDd08ZORunvIYpHk2mkB1gofJ5SOnm++cTO/snjMcPZNgxcG3+dJkgNR/EhVKnJQBzrvJmWSaCylnUj0Tb63cmspqC7wlRD1+0pf7bnP06uv1ZHI6IghQMyWDIOnvL27V7d6rWDAIBXfQTmpXhbFEe/U0R7dQ5mN3e5ItkElE3yboPzCCrciZXmb1iy54nI68Azq468lWgOxncpwBtWT/l/KLTYQcKU2XQDZE07azwLhwS2GEatGCdMa+0xfoq0mhZMLQGtbTDLZuTKlu7juwKCFQo8rCT7mn1X0GG/O8YkpAi1qPPgx8GeGgAWJjb9usv3nFrh8iZdelBLBXRW5m9PmN0SUn69JeQvo+kcgHx6m7TI6Wjf6XDBO2YpIHoKRAFeifCFVuArDlqRzUGrGUE63X/mSSFClaQ== mkumar_up@rediffmail.com
+  -----END RSA PRIVATE KEY-----
