@@ -1,6 +1,8 @@
 package io.pivotal.pal.tracker;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mysql.cj.jdbc.MysqlDataSource;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -9,15 +11,24 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 
+import javax.sql.DataSource;
+
 @SpringBootApplication
 public class PalTrackerApplication {
     public static void main(String[] args){
         SpringApplication.run(PalTrackerApplication.class, args);
     }
 
-    @Bean
+    /*@Bean
     public TimeEntryRepository timeEntryRepository(){
         return new InMemoryTimeEntryRepository();
+    }*/
+
+    MysqlDataSource dataSource = new MysqlDataSource();
+
+    @Bean
+    public TimeEntryRepository jdbcTimeEntryRepository(DataSource dataSource){
+        return new JdbcTimeEntryRepository(dataSource);
     }
 
     //Add a @Bean method that returns an instance of ObjectMapper
