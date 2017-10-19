@@ -8,5 +8,5 @@ applications:
 
   #random-route: true
   env:
-    SECURITY_FORCE_HTTPS=true
+    SECURITY_FORCE_HTTPS: true
 #    WELCOME_MESSAGE: Hello from Cloud Foundry
