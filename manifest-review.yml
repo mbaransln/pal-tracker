@@ -7,5 +7,6 @@ applications:
     - tracker-database
 
   #random-route: true
-  #env:
-  #  WELCOME_MESSAGE: Hello from Cloud Foundry
+  env:
+    SECURITY_FORCE_HTTPS=true
+#    WELCOME_MESSAGE: Hello from Cloud Foundry
